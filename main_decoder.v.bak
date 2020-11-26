@@ -26,7 +26,7 @@ begin
             _Branch      = 1'b0;
             _MemWrite    = 1'b0;
             _MemToReg    = 1'b0;
-            // $monitor("00 %b", _MemToReg);
+            // $monitor("sosi bibu00 %b", _MemToReg);
             _ALUOp       = 2'b10;
         end
         6'h23:   // 0x23
@@ -37,7 +37,7 @@ begin
             _Branch      = 1'b0;
             _MemWrite    = 1'b0;
             _MemToReg    = 1'b1;
-            // $monitor("23 %b", _MemToReg);
+            // $monitor("sosi bibu23 %b", _MemToReg);
             _ALUOp       = 2'b00;
         end
         6'h2B:
@@ -48,7 +48,7 @@ begin
             _Branch      = 1'b0;
             _MemWrite    = 1'b1;
             // _MemToReg    = 1'bx;
-            // $monitor("2B %b", _MemToReg);
+            // $monitor("sosi bibu2B %b", _MemToReg);
             _ALUOp       = 2'b00;
         end
         6'h04:
@@ -59,7 +59,7 @@ begin
             _Branch      = 1'b1;
             _MemWrite    = 1'b0;
             // _MemToReg    = 1'bx;
-            // $monitor("04 %b", _MemToReg);
+            // $monitor("sosi bibu04 %b", _MemToReg);
             _ALUOp       = 2'b01;
         end
     endcase

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for week13Lab
-Thu Nov 26 19:33:13 2020
+Thu Nov 26 19:35:03 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Thu Nov 26 19:33:13 2020           ;
+; Analysis & Synthesis Status        ; Failed - Thu Nov 26 19:35:03 2020           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; week13Lab                                   ;
 ; Top-level Entity Name              ; week13Lab                                   ;
@@ -163,16 +163,16 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 26 19:33:02 2020
+    Info: Processing started: Thu Nov 26 19:34:53 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off week13Lab -c week13Lab
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Warning (12019): Can't analyze file -- file week13Lab.v is missing
 Error (12007): Top-level design entity "week13Lab" is undefined
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 2 warnings
-    Error: Peak virtual memory: 4704 megabytes
-    Error: Processing ended: Thu Nov 26 19:33:14 2020
-    Error: Elapsed time: 00:00:12
+    Error: Peak virtual memory: 4706 megabytes
+    Error: Processing ended: Thu Nov 26 19:35:03 2020
+    Error: Elapsed time: 00:00:10
     Error: Total CPU time (on all processors): 00:00:19
 
 
