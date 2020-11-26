@@ -6,7 +6,7 @@ module control_unit(
 
 	wire [1:0] ALUOp;
 
-	main_decoder md(..);
-	alu_decoder ad(..);
+	main_decoder md(opcode, MemtoReg, MemWrite, Branch, ALUSrc, RegDst, RegWrite, ALUOp);
+	alu_decoder ad(ALUOp, funct, ALUControl);
 
 endmodule
